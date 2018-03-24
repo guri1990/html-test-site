@@ -1,33 +1,80 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<style>
+
+
+h1, p3 {
+  color: red;
+  text-align: center;
+  font-size: 35px;
+  font-weight: bold;
+  background-color: yellow;
+}
+
+
+/* all with class="highlight" */
+.even {
+  font-size: 24px;
+  font-weight: bold;
+  background-color: green;
+  opacity: .6;
+}
+
+/* element with id="mainPoint" */
+#article1, #article3, #article5 {
+  font-size: 24px;
+  font-weight: bold;
+  background-color: grey;
+  opacity: .7;
+}
+
+
+/* all p AND h2 elements */
+ .heading  {
+ 	font-family: Algerian;
+ 	font-size: 34px;
+  color: yellow;
+       width : 260px;
+    height : 244px;
+}
+h4 {
+ 	font-family: Algerian;
+ 	font-size: 34px;
+  color: yellow;
+    background-color: red; 
+    width : 260px;
+    height : 44px;
+
+</style>
 	<title> MHOW </title>
 </head> 
 <body>
-      <h1> Mhow, also known as Dr Ambedkar Nagar </h1>
-      <img src="mhow.png" alt="HTML tutorial" style="width:292px;height:292px;border:0;">
-      <p> Mhow is in the Indore District in Madhya Pradesh state of India. 
+      <h1> MHOW, ALSO KNOWN AS DR AMBEDKAR NAGAR </h1>
+      <marquee>
+      <img src="Beauty-of-Mhow.png" alt="HTML tutorial" style="width:692px;height:292px;border:0; "> </marquee>
+      <br>
+      <p3> Mhow is in the Indore District in Madhya Pradesh state of India. 
       	 Pincode. 4534441 
-      	
-      	 Telephone code. 07324 </p>
-   <!-- <DIV>
+      	 </p3>
+    <DIV>
     	<video width="400" controls>  
     		<source src="https://www.youtube.com/watch?v=XfEmcPRYTOI">MHOW
       	</video>
-      <iframe width="414" height="270" src="https://www.youtube.com/watch?v=XfEmcPRYTOI" > </iframe> </DIV> -->
+      <iframe width="414" height="270" src="https://www.youtube.com/embed/XfEmcPRYTOI" > </iframe> </DIV> 
       <!-- <DIV>
     	<video width="400" controls>  
     		<source src="https://www.youtube.com/watch?v=m_jGuyY8unI" >MHOW
       	</video>
       <iframe width="414" height="270" src="https://www.youtube.com/watch?v=m_jGuyY8unI" > </iframe> </DIV> -->
 
-     <div> <video width="400" controls>  
+     <!--<div> <video width="400" controls>  
     		<source src= "https://github.com/guri1990/html-test-site/blob/master/Army%20War%20College%2C%20Mhow.mp4?raw=true" >MHOW
-      	</video> 
+      	</video> -->
      <!-- <iframe width="414" height="270" src="videoplayback.mp4" > </iframe> --> 
             <div>
       	<h2> CONTENT</h2>
-      	<ul>
+      	<ul class="heading">
       		<li><a href="#article1">Etymology </a> </li>
 
       		<li><a href="#article2">History</a></li>
@@ -45,7 +92,7 @@
       	   <p>In 2003, the town was renamed Dr. Ambedkar Nagar in honour of B. R. Ambedkar, who was born here. The renaming has not been without controversy. Many claim that it has been done due to the compulsions of vote bank politics. The new name is used for official purposes and has not been widely accepted</p>
       	  </article>
 
-      	 <article id = "article2">
+      	 <article id = "article2" class="even">
       	  <h2> History </h2>
       	 <p> This cantonment town was founded in 1818 by John Malcolm as a result of the Treaty of Mandsaur between the English and the Holkars who were the Maratha Maharajas of Indore. </p>
       	 <p> Mhow used to be the headquarters of the 5th (Mhow) Division of the Southern Command during the British Raj.
@@ -57,7 +104,7 @@
 		  <h2>Climate</h2>
 		  <p>Mhow has a pleasant climate more often than not, however the peak summer and winter periods may get extremely hot and cold, respectively. Temperatures may go as high as 43 degrees Celsius during summers and as low as 4 degrees Celsius during winter</p>
 		</article>
-		<article id = "article4">
+		<article id = "article4" class="even">
 		  <h2>Demographics</h2>
 		  <p>Mhow had a population of 85,023. Males constitute 54% of the population and females 46%. Mhow has an average literacy rate of 72%, higher than the national average of 59.5%; male literacy is 78%, and female literacy is 65%.</p>
 		  <p>Population of Children with age of 0-6 is 9308 which is 11.39% of total population of Mhow Cantt (CB). In Mhow Cantt Cantonment Board, Female Sex Ratio is of 862 against state average of 931. Moreover, Child Sex Ratio in Mhow Cantt is around 908 compared to Madhya Pradesh state average of 918. Literacy rate of Mhow Cantt city is 85.78%; higher than state average of 69.32%. In Mhow Cantt, Male literacy is around 90.42% while female literacy rate is 80.37%.</p>
@@ -74,15 +121,14 @@
 		  	<font face="verdana" color="blue">
 		  		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Military College of Telecommunication Engineering (MCTE) </font>
 		  </h3>
-		  <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The first training institution in Mhow, MCTE was known as the School of Signals till 1967. It is the alma mater of the Corps of Signals. MCTE conducts telecommunications and information technology courses for officers, JCOS, NCOs and soldiers of the Indian Army. Officers and men from other countries also attend courses there. It also trains gentlemen cadets for a bachelor's degree in engineering at the Cadets Training Wing (CTW)</p>
+		  <p class="highlight">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The first training institution in Mhow, MCTE was known as the School of Signals till 1967. It is the alma mater of the Corps of Signals. MCTE conducts telecommunications and information technology courses for officers, JCOS, NCOs and soldiers of the Indian Army. Officers and men from other countries also attend courses there. It also trains gentlemen cadets for a bachelor's degree in engineering at the Cadets Training Wing (CTW)</p>
 		  <h3> <font face="verdana" color="mehroon">
 		  	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The Army War College </font>
 		  </h3>
 		  <p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Army War College, Mhow (AWC) is a tactical training and research institution of the Indian Army. It develops and evaluates concepts and doctrines for tactics and logistics. The college trains about 1,200 officers, as well as paramilitary forces each year</p>
 		 </article></section>
 	 <h4>
-		  	<font face="verdana"  color="blue"></font>
-		  	<a href="https://www.tripadvisor.in/Tourism-g1887514-Mhow_Indore_District_Madhya_Pradesh-Vacations.html" target="_blank">MHOW TOURISM</a>
+		  			  	<a href="https://www.tripadvisor.in/Tourism-g1887514-Mhow_Indore_District_Madhya_Pradesh-Vacations.html" target="_blank">MHOW TOURISM</a>
 		  </h4>
 </body>
 </html>
